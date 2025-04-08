@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3 Years of Us</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="scroll-indicator">
+      <span>Scroll Down ⬇️</span>
+    </div>
+
+    <div class="theme-toggle">
+      <button id="toggleTheme">🌑 / 🌸</button>
+    </div>
+
+    <h1 class="title">Happy 3rd Anniversary, Love 💖</h1>
+
+    <div class="heart-beat">💗</div>
+
+    <div class="typing" id="loveMessage"></div>
+
+    <section id="memories-section">
+      <div id="memories-container">
+        <div id="first-date" class="memory-card">
+          <h3>First Date</h3>
+          <p>
+            I’m not sure what to call our “first date.” Was it that pseudo-date
+            at the end of the fields, or our duty time as prefects? Or maybe the
+            Mario Movie date? Whatever it was, every moment with you has meant
+            more to me than anything else in my life.
+          </p>
+        </div>
+
+        <div id="first-kiss" class="memory-card">
+          <h3>First Kiss</h3>
+          <p>
+            It was November, after EAMUN training, in the bus. The rain tapping
+            the roof, the moon glowing faintly, fog on the windows. An awkward
+            laugh, a soft brush of lips—and just like that, I was hooked.
+          </p>
+        </div>
+
+        <div id="trip-together" class="memory-card">
+          <h3>Trip Together</h3>
+          <p>
+            Most of our “trips” have been school bus rides, but our hike stands
+            out. Dusty hands, messy hair, aching legs—yet I never wanted it to
+            end. Holding your hand made my fear of heights vanish. I just wanted
+            to be next to you.
+          </p>
+        </div>
+
+        <div id="future-dreams" class="memory-card">
+          <h3>Future Dreams</h3>
+          <p>
+            I don’t know where the future will take us—maybe France, maybe
+            India. Different time zones, different lives… But one thing’s for
+            sure: no matter where we go, our story ends the same way—with 4
+            dogs, 2 kids, and a garden that grows old with us.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <canvas id="petals"></canvas>
+
+    <section class="love-letter">
+      <h2 align="center">Now it's time to write your love letter</h2>
+      <textarea
+        id="loveLetterInput"
+        placeholder="Write your love letter here..."
+      ></textarea>
+      <button id="saveLoveLetter" align="center">Submit</button>
+      <button id="deleteLoveLetter" align="center">Delete</button>
+      <div id="savedLoveLetter" class="saved-letter"></div>
+    </section>
+
+    <section class="photo-carousel">
+      <h2 align="center">Our Shared Memories</h2>
+      <div class="carousel">
+        <img src="img/img1.jpeg" alt="Memory 1" />
+        <img src="img/img2.jpeg" alt="Memory 2" />
+        <img src="img/img3.jpeg" alt="Memory 3" />
+        <img src="img/img4.jpeg" alt="Memory 3" />
+        <img src="img/img5.jpeg" alt="Memory 3" />
+        <img src="img/img6.jpeg" alt="Memory 3" />
+      </div>
+      <button id="prevBtn">Previous</button>
+      <button id="nextBtn">Next</button>
+    </section>
+
+    <section class="countdown">
+      <h2>Countdown to Our Next Anniversary</h2>
+      <div id="countdownTimer"></div>
+    </section>
+
+    <div class="flowers">🌺🌼🌹🌷🌸</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
